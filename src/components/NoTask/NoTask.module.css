@@ -1,0 +1,20 @@
+.noTask {
+  width: 73.6rem;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.noTask svg {
+  margin-bottom: 1.6rem;
+  color: var(--placeholder);
+}
+
+.noTask strong,
+.noTask span {
+  font-size: 1.6rem;
+  color: var(--placeholder);
+  line-height: 1.4;
+}

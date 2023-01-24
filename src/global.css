@@ -1,0 +1,35 @@
+:root {
+  --black-header: #0d0d0d;
+  --background-main: #191919;
+  --input-task: #262626;
+  --button-addTask: #1e6f9f;
+  --button-addTask-text: #f2f2f2;
+  --tasks-created: #3d7ba0;
+  --tasks-finished: #8284fa;
+  --placeholder: #808080;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--green-500);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--background-main);
+}
+
+body,
+button,
+input,
+p,
+span {
+  font-family: 'Inter', sans-serif;
+}

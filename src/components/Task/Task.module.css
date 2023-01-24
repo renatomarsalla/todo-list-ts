@@ -1,0 +1,43 @@
+.task {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  gap: 1.2rem;
+
+  background-color: var(--input-task);
+
+  margin-bottom: 1.2rem;
+
+  height: 7.2rem;
+
+  border-radius: 8px;
+
+  padding: 1.6rem;
+}
+
+.task input {
+  color: var(--button-addTask);
+
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.task p {
+  color: var(--button-addTask-text);
+  font-size: 1.4rem;
+  line-height: 1.96rem;
+  width: 63.2rem;
+}
+
+.task svg {
+  color: var(--placeholder);
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.noChecked {
+  text-align: justify;
+}

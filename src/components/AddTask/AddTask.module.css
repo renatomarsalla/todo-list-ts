@@ -1,0 +1,53 @@
+.addTask {
+  width: 73.6rem;
+  height: 5.4rem;
+
+  margin-top: calc(0px - 2.7rem);
+
+  display: flex;
+  gap: 0.8rem;
+}
+
+.addTask input {
+  background-color: var(--input-task);
+
+  width: 63.8rem;
+  height: 100%;
+
+  border-radius: 8px;
+  border: none;
+
+  padding: 1.2rem;
+
+  color: var(--placeholder);
+
+  font-size: 1.6rem;
+}
+
+.addTask button {
+  width: 9rem;
+  height: 100%;
+
+  border-radius: 8px;
+  border: none;
+
+  background-color: var(--button-addTask);
+  color: var(--button-addTask-text);
+
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.9;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+
+  cursor: pointer;
+}
+
+.addTask button svg {
+  /* font-size: 2rem; */
+  font-weight: 700;
+  color: var(--button-addTask-text);
+}
